@@ -1,0 +1,14 @@
+{
+  "name": "supermario-termoidraulica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page HTML statica, senza JavaScript nel browser.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./assets/styles.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "lucide-static": "^1.61.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
